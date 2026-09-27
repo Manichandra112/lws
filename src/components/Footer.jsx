@@ -40,17 +40,17 @@ export default function Footer() {
             <h5>Connect &amp; Procure</h5>
             <div className="footer-contact-item">
               <span>Email:</span>
-              <a href="mailto:sales@getmissmiel.com" style={{ color: '#FFFFFF' }}>sales@getmissmiel.com</a>
+              <a href="mailto:lwshoney@gmail.com" style={{ color: '#FFFFFF' }}>lwshoney@gmail.com</a>
             </div>
             <div className="footer-contact-item">
               <span>WhatsApp:</span>
-              <a href="https://wa.me/919427779669" target="_blank" rel="noopener noreferrer" style={{ color: '#FFFFFF' }}>
-                +91 94277 79669
+              <a href="https://wa.me/916303143435" target="_blank" rel="noopener noreferrer" style={{ color: '#FFFFFF' }}>
+                +91 63031 43435
               </a>
             </div>
             <div className="footer-contact-item" style={{ marginTop: '0.8rem' }}>
               <span>Facility:</span>
-              <span style={{ color: '#FFFFFF' }}>Bhavnagar, Gujarat, India</span>
+              <span style={{ color: '#FFFFFF' }}>Tirupati, Andhra Pradesh, India</span>
             </div>
           </div>
         </div>
