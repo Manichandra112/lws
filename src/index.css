@@ -344,21 +344,23 @@ img {
 }
 
 .brand-name {
-  font-family: var(--font-serif);
-  font-size: 1.45rem;
-  letter-spacing: 0.04em;
-  font-weight: 600;
-  color: var(--text-main);
-  line-height: 0.95;
+  font-family: var(--font-sans);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #1A120B;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .brand-tagline {
+  font-family: var(--font-sans);
   font-size: 0.48rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #A35D12;
-  margin-top: 2px;
+  letter-spacing: 0.12em;
+  color: #9C580E;
+  margin-top: 3px;
   line-height: 1;
 }
 
@@ -2174,18 +2176,23 @@ img {
 }
 
 .footer-brand h3 {
+  font-family: var(--font-sans);
   color: #FFFFFF;
-  font-size: 1.6rem;
+  font-size: 1.45rem;
+  font-weight: 800;
   letter-spacing: 0.08em;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.25rem;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 .footer-brand .brand-tagline {
+  font-family: var(--font-sans);
   color: #E8C582;
   margin-bottom: 0;
-  font-size: 0.62rem;
-  letter-spacing: 0.08em;
+  font-size: 0.52rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
