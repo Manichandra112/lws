@@ -7,8 +7,26 @@ export default function Footer() {
         <div className="footer-top">
           {/* Brand Summary */}
           <div className="footer-brand">
-            <h3>LWS</h3>
-            <div className="brand-tagline">Love with Sacrifice</div>
+            <div className="footer-brand-header">
+              <div className="footer-brand-icon">
+                <img
+                  src="/images/lws-logo-mark.jpg"
+                  onError={(e) => {
+                    if (!e.target.dataset.triedRelative) {
+                      e.target.dataset.triedRelative = 'true';
+                      e.target.src = './images/lws-logo-mark.jpg';
+                    }
+                  }}
+                  alt="LWS - Two Bees with Love Heart Logo"
+                  width="44"
+                  height="44"
+                />
+              </div>
+              <div>
+                <h3>LWS</h3>
+                <div className="brand-tagline">Love with Sacrifice</div>
+              </div>
+            </div>
             <p>
               Single-serve honey, considered from honey to seal, for businesses who care how the smallest details land with their guests.
             </p>

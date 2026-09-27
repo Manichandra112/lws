@@ -19,11 +19,19 @@ export default function Navbar() {
         <div className="container navbar">
           <a href="#hero" className="brand-logo" onClick={closeMenu}>
             <div className="brand-icon">
-              {/* Bee Emblem SVG */}
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
-                <circle cx="12" cy="12" r="4"/>
-              </svg>
+              <img
+                src="/images/lws-logo-mark.jpg"
+                onError={(e) => {
+                  if (!e.target.dataset.triedRelative) {
+                    e.target.dataset.triedRelative = 'true';
+                    e.target.src = './images/lws-logo-mark.jpg';
+                  }
+                }}
+                alt="LWS - Two Bees with Love Heart Logo"
+                className="brand-logo-img"
+                width="44"
+                height="44"
+              />
             </div>
             <div className="brand-text">
               <span className="brand-name">LWS</span>
