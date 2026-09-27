@@ -18,8 +18,8 @@ export default function Footer() {
                     }
                   }}
                   alt="LWS - Two Bees with Love Heart Logo"
-                  width="48"
-                  height="40"
+                  width="66"
+                  height="52"
                 />
               </div>
               <div>

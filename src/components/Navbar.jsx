@@ -29,8 +29,8 @@ export default function Navbar() {
                 }}
                 alt="LWS - Two Bees with Love Heart Logo"
                 className="brand-logo-img"
-                width="48"
-                height="40"
+                width="66"
+                height="52"
               />
             </div>
             <div className="brand-text">
