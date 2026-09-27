@@ -42,47 +42,30 @@ export default function Standards() {
     <section className="standards-section section-padding" id="standards">
       <div className="container">
         {/* Section Header */}
-        <div className="section-header">
+        <div className="section-header text-center">
           <span className="eyebrow eyebrow-dark">FROM HONEY TO SPOON</span>
           <h2 className="section-title">
             The Journey Behind <span className="italic-serif" style={{ color: '#E8C582' }}>Every Single Spoon.</span>
           </h2>
-          <p className="section-subtitle" style={{ color: 'var(--text-light-muted)', maxWidth: '820px' }}>
+          <p className="section-subtitle" style={{ color: 'var(--text-light-muted)', maxWidth: '820px', margin: '0 auto' }}>
             Every LWS spoon follows a careful process &mdash; from preparing the honey to filling, sealing, individually protecting, and finally getting each finished spoon ready to reach its destination.
           </p>
         </div>
 
-        {/* 5-Step Process & Visual Grid */}
-        <div className="standards-grid">
-          <div className="process-steps">
-            {steps.map((step) => (
-              <div className="step-card" key={step.number}>
-                <div className="step-header">
-                  <span className="step-number">{step.number}</span>
-                  <span className="step-dash">&mdash;</span>
-                  <span className="step-title">{step.title}</span>
-                </div>
-                <p className="step-desc">
-                  {step.description}
-                </p>
+        {/* 5-Step Process */}
+        <div className="process-steps" style={{ maxWidth: '820px', margin: '0 auto 4.5rem auto' }}>
+          {steps.map((step) => (
+            <div className="step-card" key={step.number}>
+              <div className="step-header">
+                <span className="step-number">{step.number}</span>
+                <span className="step-dash">&mdash;</span>
+                <span className="step-title">{step.title}</span>
               </div>
-            ))}
-          </div>
-
-          <div className="standards-image-card">
-            <img
-              src="/images/cleanroom-manufacturing.jpg"
-              onError={(e) => {
-                if (!e.target.dataset.triedRelative) {
-                  e.target.dataset.triedRelative = 'true';
-                  e.target.src = './images/cleanroom-manufacturing.jpg';
-                }
-              }}
-              alt="Careful filling and hygienic sealing process of LWS honey spoons"
-              width="600"
-              height="540"
-            />
-          </div>
+              <p className="step-desc">
+                {step.description}
+              </p>
+            </div>
+          ))}
         </div>
 
         {/* Uncompromised Quality Certifications */}
