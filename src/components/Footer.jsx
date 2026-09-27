@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand Summary */}
           <div className="footer-brand">
             <h3>LWS</h3>
-            <div className="brand-tagline">Love with Sacrifice &middot; Single-Serve Honey</div>
+            <div className="brand-tagline">Love with Sacrifice</div>
             <p>
               Single-serve honey, considered from honey to seal, for businesses who care how the smallest details land with their guests.
             </p>
@@ -48,7 +48,7 @@ export default function Footer() {
                 +91 63031 43435
               </a>
             </div>
-            <div className="footer-contact-item" style={{ marginTop: '0.8rem' }}>
+            <div className="footer-contact-item" style={{ marginTop: '0.8rem', whiteSpace: 'nowrap' }}>
               <span>Facility:</span>
               <span style={{ color: '#FFFFFF' }}>Tirupati, Andhra Pradesh, India</span>
             </div>
