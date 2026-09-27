@@ -40,7 +40,7 @@ export default function Footer() {
             <h5>Connect &amp; Procure</h5>
             <div className="footer-contact-item">
               <span>Email:</span>
-              <a href="mailto:lwshoney@gmail.com" style={{ color: '#FFFFFF' }}>lwshoney@gmail.com</a>
+              <a href="mailto:lwshoney1@gmail.com" style={{ color: '#FFFFFF' }}>lwshoney1@gmail.com</a>
             </div>
             <div className="footer-contact-item">
               <span>WhatsApp:</span>
