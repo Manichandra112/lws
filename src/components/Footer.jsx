@@ -10,16 +10,16 @@ export default function Footer() {
             <div className="footer-brand-header">
               <div className="footer-brand-icon">
                 <img
-                  src="/images/lws-logo-mark.jpg"
+                  src="/images/lws-logo.png"
                   onError={(e) => {
                     if (!e.target.dataset.triedRelative) {
                       e.target.dataset.triedRelative = 'true';
-                      e.target.src = './images/lws-logo-mark.jpg';
+                      e.target.src = './images/lws-logo.png';
                     }
                   }}
                   alt="LWS - Two Bees with Love Heart Logo"
-                  width="44"
-                  height="44"
+                  width="48"
+                  height="40"
                 />
               </div>
               <div>
