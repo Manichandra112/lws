@@ -67,7 +67,7 @@ export default function SuccessModal({ order, onClose }) {
             Return to Page
           </button>
           <a
-            href="https://wa.me/919427779669"
+            href="https://wa.me/916303143435"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-honey"

@@ -29,8 +29,7 @@ export default function Navbar() {
                 }}
                 alt="LWS - Two Bees with Love Heart Logo"
                 className="brand-logo-img"
-                width="60"
-                height="48"
+                height="44"
               />
             </div>
             <div className="brand-text">
@@ -52,7 +51,7 @@ export default function Navbar() {
 
           {/* Actions */}
           <div className="nav-actions">
-            <a href="#enquiry" className="btn btn-primary" onClick={closeMenu}>Request Samples &rarr;</a>
+            <a href="#enquiry" className="btn btn-primary" onClick={closeMenu}>Enquire &rarr;</a>
             <button
               className="mobile-nav-toggle"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
