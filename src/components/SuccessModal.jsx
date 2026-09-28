@@ -28,10 +28,10 @@ export default function SuccessModal({ order, onClose }) {
           >
             &#10003;
           </div>
-          <h3 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Sample Request Registered</h3>
+          <h3 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Enquiry Registered</h3>
           <p style={{ color: 'var(--text-muted)' }}>
-            Thank you, <strong style={{ color: 'var(--text-main)' }}>{order.name}</strong> from{' '}
-            <strong style={{ color: 'var(--text-main)' }}>{order.company}</strong>.
+            Thank you, <strong style={{ color: 'var(--text-main)' }}>{order.name}</strong>
+            {order.company ? <> ({order.company})</> : ''}.
           </p>
         </div>
 
@@ -45,21 +45,21 @@ export default function SuccessModal({ order, onClose }) {
           }}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.6rem', fontSize: '0.9rem' }}>
-            <span style={{ color: 'var(--text-muted)' }}>Selected Format:</span>
+            <span style={{ color: 'var(--text-muted)' }}>Category / Format:</span>
             <strong style={{ color: 'var(--text-main)' }}>{order.format}</strong>
           </div>
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.6rem', fontSize: '0.9rem' }}>
-            <span style={{ color: 'var(--text-muted)' }}>Sector:</span>
+            <span style={{ color: 'var(--text-muted)' }}>Requirement / Occasion:</span>
             <strong style={{ color: 'var(--text-main)' }}>{order.sector}</strong>
           </div>
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.9rem' }}>
-            <span style={{ color: 'var(--text-muted)' }}>Volume Tier:</span>
+            <span style={{ color: 'var(--text-muted)' }}>Quantity / Volume:</span>
             <strong style={{ color: 'var(--text-main)' }}>{order.volume}</strong>
           </div>
         </div>
 
         <p style={{ fontSize: '0.95rem', color: 'var(--text-body)', marginBottom: '2rem', textAlign: 'center' }}>
-          Our hospitality team will review your requirements and reach out via email / WhatsApp within two business days to confirm sample dispatch details.
+          Our team will review your details and reach out via email / WhatsApp within two business days to confirm dispatch details.
         </p>
 
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
